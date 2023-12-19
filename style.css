@@ -43,4 +43,20 @@ h5{
 }
 h6 {
     color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+}
+h5 .number {
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h5 .name {
+   margin-top: 20px; 
+}
+.container .card-details {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: flex-end;
 }
