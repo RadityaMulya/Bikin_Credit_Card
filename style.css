@@ -9,6 +9,7 @@
 }
 .logo img {
     width: 48px;
+    margin-right: 10px;
 }
 .header .chip {
     width: 60px;
@@ -22,10 +23,21 @@ body {
 }
 .container {
     position: relative;
-    background-color: #fff;
+    background-color: #ffd900;
+    background-size: cover;
     padding: 25px;
     border-radius: 28px;
     max-width: 380px;
     width: 100%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
 }
